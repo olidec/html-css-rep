@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/box-style.css">
+        <title>The Box Model</title>
+    </head>
+    <body>
+        <h1>The Box Model</h1>
+        <h2>No Margin, No Padding, With Border</h2>
+        <p>
+            Box fits around image.
+        </p>
+        <div class="box border">
+            <img src="res/logo.png" alt="logo" width="400px">
+        </div>
+        <h2>With Margin, No Padding, With Border</h2>
+        <p>
+            Box around image is shifted by the margin (down and to the right is visible, but there is also a margin at the bottom and the left).
+        </p>
+        <div class="box margin border">
+            <img src="res/logo.png" alt="logo" width="400px">
+        </div>
+        <h2>No Margin, With Padding, With Border</h2>
+        <p>
+            Box is enlarged around image by padding (the box size has changed).
+        </p>
+        <div class="box padding border">
+            <img src="res/logo.png" alt="logo" width="400px">
+        </div>
+        <h2>With Margin, With Padding, With Border</h2>
+        <p>The box is enlarged and shifted due to padding and margin</p>
+        <div class="box margin padding border">
+            <img src="res/logo.png" alt="logo" width="400px">
+        </div>
+    </body>
+</html>

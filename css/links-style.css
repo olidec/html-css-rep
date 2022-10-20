@@ -1,0 +1,11 @@
+.fancy-link:link {
+    color: red;
+}
+
+.fancy-link:hover {
+    color: rgb(23, 114, 49);
+}
+
+.fancy-link:visited {
+    color: hotpink;
+}

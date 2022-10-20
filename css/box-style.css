@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+
+.box {
+    width: 400px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+span {
+    line-height: 200px;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.border {
+    border: solid 2px black;
+}

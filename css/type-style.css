@@ -1,0 +1,29 @@
+.sans {
+    font-family: sans-serif;
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.fancy {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px rgb(74, 72, 226);
+    text-decoration: underline;
+    color: cornflowerblue;
+}
