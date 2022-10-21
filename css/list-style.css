@@ -1,0 +1,11 @@
+ul li {
+    color: red;
+}
+
+ol li {
+    color: green;
+}
+
+.first {
+    text-decoration: underline;
+}
